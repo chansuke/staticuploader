@@ -1,0 +1,7 @@
+doctype html
+html
+  head
+    title StaticUploader
+  body
+    - @images_path.each do |image_path|
+      %img{:src => image_path}
