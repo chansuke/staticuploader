@@ -4,4 +4,6 @@ gem 'padrino'
 gem 'sinatra'
 gem 'slim'
 
+gem 'aws-sdk'
+
 gem 'rspec'
